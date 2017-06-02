@@ -55,7 +55,35 @@ body {
 }
 
 .hitShip {
+  width: 50px;
+  height: 50px;
   background-color: #DE6449;
+  border-style: solid;
+  border-width: thin;
+  border-color: #80ffff;
+  float: left;
+}
+
+.miss {
+  width: 50px;
+  height: 50px;
+  background-color: #FFFFF2;
+  border-style: solid;
+  border-width: thin;
+  border-color: #80ffff;
+  float: left;
+}
+
+.gameOver {
+  height: 750px;
+  width: 1400px;
+  position: fixed;
+  left: 20px;
+  font-size: 300%;
+  background-color: #DE6449;
+  color: white;
+  text-align: center;
+  border: 5px solid white;
 }
 
 .red {
@@ -67,5 +95,5 @@ body {
 }
 
 .ship {
-  background-color: #FFFFF2;
+  background-color: #068D9D;
 }
