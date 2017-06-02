@@ -97,3 +97,48 @@ body {
 .ship {
   background-color: #068D9D;
 }
+
+.alphabet {
+  height: 520px;
+  width: 10px;
+  border-color: black;
+  font-size: 350%;
+  position: absolute;
+  color: white;
+  font-family: monospace;
+  margin-top: 110px;
+  margin-left: 98px;
+}
+
+.alphabet2 {
+  height: 520px;
+  width: 10px;
+  font-size: 350%;
+  position: absolute;
+  color: white;
+  font-family: monospace;
+  margin-top: 110px;
+  margin-left: 710px;
+}
+
+.numbers {
+  width: 520px;
+  height: 10px;
+  font-size: 330%;
+  position: absolute;
+  color: white;
+  font-family: monospace;
+  margin-top: 70px;
+  margin-left: 760px;
+}
+
+.numbers2 {
+  width: 520px;
+  height: 10px;
+  font-size: 330%;
+  position: absolute;
+  color: white;
+  font-family: monospace;
+  margin-top: 70px;
+  margin-left: 145px;
+}

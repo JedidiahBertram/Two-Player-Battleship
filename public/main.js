@@ -49,7 +49,7 @@ window.onload = function() {
         _fireMissile.className = 'miss';
       }
       if (hitCount > 16) {
-        window.alert("Game over. Someone won. BE HONEST!")
+        window.alert("Game over. You won! Tell the other of your victory!")
         console.log('Someone won. I dont know who. But Someone won.')
       }
     })
