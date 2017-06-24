@@ -80,5 +80,10 @@ The features I would like to add are as follows:
 * Socket room functionality. IE Only two players per room etc.
 
 ---
+### Looking Back
+
+Even though the  app is far from finished, I was very proud at what I was able to accomplish in a week. The project showed me that I had learned so much since the beginning of the boot camp, and most importantly thatI had learned to learn. I was able to read documentation and decipher code which explained or utilized a technology I had never touched before like a pro, a feat I would have not have been able to accomplish months before.
+
+---
 If you would like to play a round with your friend following the guidelines previously mentioned, the app is deployed at:
 https://battleship-jedidiah.herokuapp.com/
