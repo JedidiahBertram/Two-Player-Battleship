@@ -40,19 +40,22 @@ After I went through these projects, commenting out code line by line, and final
 I went step by step, first just making divs register ships being set, and hits on a single page. Which looked like this:
 
 ![alt text](https://github.com/JedidiahBertram/two-player-battleship/blob/master/assets/batlleship1st.gif)
-(Ships are being set one div at a time with the first click, hits registered on second click.)
+
+*(Ships are being set one div at a time with the first click, hits registered on second click.)*
 
 Then, I had to figure out how to have that information sent over via web sockets, which wound up looking like this:
 
 ![alt text](https://github.com/JedidiahBertram/two-player-battleship/blob/master/assets/battleship2nd.gif)
-(Basically the same functionality, being shared from tab to tab.)
+
+*(Basically the same functionality, being shared from tab to tab.)*
 
 Then came one of if not the biggest challenge I had to face, which was figuring out how to utilize sockets, the technology I just learned, to make the game logic work. It actually came to me in the shower that if I could make two grids, and have clicks on the first change the second, and only have that change be made on the other end of the socket (only be emitted to the other end of the socket) and vice versa, it just might work.
 
 My logic and thinking was correct, and working through that was eventually what landed me on the version of the app I presented, as seen below:
 
 ![alt text](https://github.com/JedidiahBertram/two-player-battleship/blob/master/assets/battleshiFinal.gif)
-(For some explanation, the ships are still set div by div. Basically at this point, you can play from computer to computer sitting at the same table as your opponent. Some honesty is required. Like I said it has a ways to go, which will be elaborated on in the next section).
+
+*(For some explanation, the ships are still set div by div. Basically at this point, you can play from computer to computer sitting at the same table as your opponent. Some honesty is required. Like I said it has a ways to go, which will be elaborated on in the next section.)*
 
 Not shown in the GIF is the game alerting you when you've won or lost.
 
